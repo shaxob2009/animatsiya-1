@@ -62,8 +62,25 @@ bady {
     top: 0;
     left: 0;
   }
-  25% {
+  10% {
+    background-image: url(../img/bmw1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: 1s;
+    top: 0;
+    left: 0;
+  }
+  17% {
     background-image: url(../img/benz.jpg);
+    transition: 1s;
+    background-size: cover;
+    background-repeat: no-repeat;
+    top: 500px;
+    left: 500px;
+  }
+  35% {
+    background-image: url(../img/benz.jpg);
+    transition: 1s;
     background-size: cover;
     background-repeat: no-repeat;
     top: 500px;
@@ -72,6 +89,15 @@ bady {
   50% {
     background-image: url(../img/lombo.jpg);
     background-size: cover;
+    transition: 1s;
+    background-repeat: no-repeat;
+    top: 500px;
+    left: 0;
+  }
+  60% {
+    background-image: url(../img/lombo.jpg);
+    background-size: cover;
+    transition: 1s;
     background-repeat: no-repeat;
     top: 500px;
     left: 0;
@@ -79,13 +105,32 @@ bady {
   75% {
     background-image: url(../img/ferari.png);
     background-size: cover;
+    transition: 1s;
     background-repeat: no-repeat;
     animation-play-state: 1s;
     top: 0;
     left: 500px;
   }
+  78% {
+    background-image: url(../img/ferari.png);
+    transition: 1s;
+    background-size: cover;
+    background-repeat: no-repeat;
+    animation-play-state: 1s;
+    top: 0;
+    left: 500px;
+  }
+  85% {
+    background-image: url(../img/ww.jpg);
+    background-size: cover;
+    transition: 1s;
+    background-repeat: no-repeat;
+    top: 0;
+    left: 0;
+  }
   100% {
     background-image: url(../img/ww.jpg);
+    transition: 1s;
     background-size: cover;
     background-repeat: no-repeat;
     top: 0;
